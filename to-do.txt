@@ -1,0 +1,24 @@
+Blue mode?
+// Snygga till CSS på det + lägg in på alla sidor (inlagt på alla sidor)
+
+Optimera sidan
+
+Ta bort oanvänd CSS (det mesta borttaget)
+
+// Komprimera PNGS DONE
+
+// fewer ext fonts, t.ex. lato i nav istället //tog bort lato från startsida, ändrat emily austin till am scribe 
+
+Ta bort onödiga div om det finns (Sofia)
+
+// Flera rubriknivåer i rec DONE
+
+TIllgänglighet
+
+Diff browsers
+
+Gör tabell mer lättläst 
+
+Content review-sidan
+
+Symboler
