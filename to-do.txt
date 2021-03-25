@@ -17,8 +17,16 @@ TIllgänglighet
 
 Diff browsers
 
-Gör tabell mer lättläst 
+// Gör tabell mer lättläst 
 
-Content review-sidan
+// Content review-sidan
 
-Symboler
+// Symboler
+
+// Publicerat på GitHub, https://maaalin.github.io/bring-me-the-horizon
+
+Bilder 400px 
+
+Git
+
+Loggan på albumsidorna, länk funkar ej?
