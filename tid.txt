@@ -1,3 +1,0 @@
-Beräknad tidsåtgång so far (as of typ 24/2):
-  M: 21 h 20 min
-  S: 12 h 0 min 
