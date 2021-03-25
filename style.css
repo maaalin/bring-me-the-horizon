@@ -566,3 +566,7 @@ background: linear-gradient(0deg, #0a6a9c 0%, #65c29d 100%);
 .lightMode button:hover, .lightMode input[type=submit]:hover, .lightMode button:focus, .lightMode input[type=submit]:focus {
   background-color: #0E398A;
 }
+
+.lightMode .cover-art a:hover {
+  color: #0E398A;
+}
