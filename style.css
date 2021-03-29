@@ -371,13 +371,13 @@ tr:hover {
   grid-column: 1 / span 3;
   grid-row: 2;
   background: #fbfcee;
-  border: 15px solid #fbfcee;
-  border-top: 20px solid #fbfcee;
+  border: 20px solid #fbfcee;
+  border-top: 30px solid #fbfcee;
   height: 1000px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-column-gap: 15px;
-  grid-template-rows: 400px 1fr;
+  grid-template-columns: 450px 450px;
+  grid-column-gap: 20px;
+  grid-template-rows: 450px 1fr;
 }
 
 .review p, .review h2, .review h3 {
