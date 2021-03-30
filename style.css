@@ -314,18 +314,18 @@ table {
   grid-row: 2;
   border-collapse: separate;
   border-spacing: 0 20px; /*space between rows*/
-   width: 100%;
+  width: 100%;
   background-image: url("images/tour-bg.jpg");
   font-family: 'Lato', sans-serif;
-  padding: 0 5px;
+
 }
 
 table a {
   text-decoration: none;
   color: inherit;
-  padding: 6px;
   background-color: #BE9044;
   transition: background-color .3s;
+  padding: 6px;
 }
 
 table a:hover {
@@ -335,6 +335,7 @@ table a:hover {
 
 tr {
   transition: background-color .2s;
+  line-height: 40px;
 }
 
 tr:hover {
