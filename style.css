@@ -424,6 +424,7 @@ tr:hover {
 
 .nah-width {
   margin-top: 25px;
+  margin-bottom: 25px;
   display: grid;
   grid-template-columns: 300px 300px 300px;
   grid-template-rows: 80px 1fr 1fr 100px ;
@@ -434,9 +435,11 @@ tr:hover {
   "footer footer footer";
   grid-column-gap: 30px;
   grid-row-gap: 20px;
-  height: 95vh;
+  height: 100vh;
   min-height: 650px;
 }
+
+
 
 #nah-link {
   grid-row: 3;
@@ -515,4 +518,15 @@ tr:hover {
 
 .lightMode button:hover, .lightMode input[type=submit]:hover, .lightMode button:focus, .lightMode input[type=submit]:focus {
   background-color: #0E398A;
+}
+
+.lightMode .nah-width {
+  background: -webkit-linear-gradient(bottom, #0a6a9c 0%, #65c29d 100%);
+  background: -o-linear-gradient(bottom, #0a6a9c 0%, #65c29d 100%);
+  background: linear-gradient(to top, #0a6a9c 0%, #65c29d 100%);
+  height: 100vh;
+}
+
+.lightMode #nah-link a:hover, .lightMode #nah-link a:focus {
+  color: #0a6a9c;
 }
