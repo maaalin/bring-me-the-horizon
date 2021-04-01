@@ -42,14 +42,7 @@ main {
 }
 
 /* header */
-nav {
-  grid-area: header;
-  display: grid;
-  align-items:baseline;
-  grid-auto-flow: column;
-  margin-top: 20px;
-}
-
+  /* logo */
 .logo {
   font-family: baskerville-display-pt, serif;
   font-weight: 400;
@@ -72,6 +65,15 @@ nav {
 .logo a {
   text-decoration: none;
   color: inherit;
+}
+
+/* menu */
+nav {
+  grid-area: header;
+  display: grid;
+  align-items:baseline;
+  grid-auto-flow: column;
+  margin-top: 20px;
 }
 
 ul {
@@ -105,6 +107,7 @@ ul li a {
 ul li a:hover, ul li a:focus  {
   color: #D6BA8D ;
 }
+/* end header */
 
 /* footer */
 footer {
@@ -179,11 +182,13 @@ input[type=submit]:hover, input[type=submit]:focus {
 form {
   display: flex;
 }
+/* end footer */
 
 /* start page */
 iframe {
   border: none;
 }
+/* end start */
 
 /* discography grid*/
 .discography {
@@ -247,7 +252,6 @@ iframe {
 /*album pages*/
 .cover-art img {
   width: 400px;
-
 }
 
 /* cover art */
@@ -300,13 +304,14 @@ iframe {
   color: #BE9044;
 }
 
-/* special-lösning för långa albumnamn */
+/* speciallösning för långa albumnamn */
 .long-title {
   font-size: 2.7em;
   line-height: 1em;
   margin-bottom: 4px;
   word-spacing: -1px;
 }
+/* end discography and albums */
 
 /*tour schedule*/
 table {
@@ -317,7 +322,6 @@ table {
   width: 100%;
   background-image: url("images/tour-bg.jpg");
   font-family: 'Lato', sans-serif;
-
 }
 
 table a {
@@ -366,6 +370,7 @@ tr:hover {
   display: block;
   margin-top: 0;
 }
+/* end tour */
 
 /* review page*/
 .review {
@@ -416,7 +421,7 @@ tr:hover {
 #signature {
   font-size: .7em;
 }
-/*end review page*/
+/* end review page */
 
 /* nah page */
 .nah {
@@ -439,8 +444,6 @@ tr:hover {
   height: 100vh;
   min-height: 650px;
 }
-
-
 
 #nah-link {
   grid-row: 3;
@@ -469,6 +472,7 @@ tr:hover {
   font-family: "Lato", sans-serif;
   align-self: center;
 }
+/* end nah */
 
 /* blue mode function */
 .lightMode {
