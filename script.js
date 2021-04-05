@@ -23,15 +23,17 @@ if (typeof (localStorage) == 'undefined') {
         $(".all").addClass('lightMode');
     }
 }
+
 $(document).ready(function () {
     $('.blueMode').on('click', function () {
         getFav = localStorage.fav;
         $(this).closest(".all").toggleClass('lightMode');
-		if ($(this).closest(".all").hasClass('lightMode')) {
+	
+	if ($(this).closest(".all").hasClass('lightMode')) {
         localStorage.setItem('fav', 'lightMode');
-
-    }else{
-		localStorage.removeItem('fav');
+  	}
+	else{
+	localStorage.removeItem('fav');
 	}
 
     });
